@@ -65,7 +65,6 @@ public class Lab1 {
 				count++;
 			}
 
-			//System.out.println("exp1: " + sb.toString());
 
 			Matcher m2 = Pattern.compile("\\w{1,}").matcher(sb.toString());
 			
@@ -157,7 +156,7 @@ public class Lab1 {
 								retstr1 = expression.derivative(exps[i], var); 
 								
 								if (!retstr1.equals("")) {
-									if (i == 0 || expr.charAt(length+i-1) == '+') {            //???
+									if (i == 0 || expr.charAt(length+i-1) == '+') {            
 										sb.append("+" + retstr1);
 									}else if (expr.charAt(length+i-1) == '-') {
 										sb.append("-" + retstr1);
