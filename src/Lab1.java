@@ -84,7 +84,6 @@ public class Lab1 {
 				}
 			}
 
-			//System.out.println("exp2: " + sb.toString());
 		
 			return expression.simplify(sb.toString());
 			
