@@ -1,11 +1,11 @@
-
+﻿
 
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Lab1 {
-	
+	//为了lab3的修改;
 	public String exp = new String();    //�洢����ʽ
 	
 	public String expression(String str) {
