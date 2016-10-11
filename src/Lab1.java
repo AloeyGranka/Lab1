@@ -6,6 +6,7 @@ import java.util.regex.Pattern;
 
 public class Lab1 {
 	//为了lab3的修改;
+//分支b2的修改
 	public String exp = new String();    //�洢����ʽ
 	
 	public String expression(String str) {
